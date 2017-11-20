@@ -1,0 +1,761 @@
+/*Beginn Header*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700,900');
+
+body {
+
+    padding-bottom: 30px;
+    font-family: 'Roboto', sans-serif;
+    background-image: url("../img/background.jpg");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    margin: 0px;
+    padding: 0px
+}
+
+
+
+
+
+/* für blur ABER noch gucken wegen div order
+
+  background-size: cover;
+  display: block;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  height: 800px;
+  left: 0;
+  position: fixed;
+  right: 0;
+  z-index: 1;*/
+
+
+
+
+#content article p {
+    padding-left: 1em
+                
+}
+
+header {
+    width: 800px;
+    height: 260px;
+    margin: auto;
+    padding-bottom: 0px;
+    position: relative;
+}
+
+#content {
+
+    height: 100%;
+    min-height: 600px;
+
+    width: 100%;
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+
+.personalinfo {
+/*    border: 1px solid black;*/
+    width: 750px;
+    height: 100%;
+        margin: auto;
+    position: relative;
+    padding-bottom: 30px;
+    padding-top: 15px;
+
+
+}
+
+.submitdiv {
+   border: 1px solid black;
+    width: 60px;
+    height: 100%;
+        margin: auto;
+    position: relative;
+    padding-bottom: 30px;
+    padding-top: 15px;
+
+}
+
+.permissiondiv {
+/*    border: 1px solid black;*/
+    width: 750px;
+    height: 100%;
+        margin: auto;
+
+    padding-bottom: 35px;
+    padding-top: 15px;
+
+}
+
+
+.tableforreg {
+    text-align: center;
+    margin: auto;
+
+
+
+
+}
+
+.fontsize1{
+    font-size: 18px;
+}
+
+.tableforlive{
+    padding-right: 150px;
+    
+}
+
+.gendertd {
+    border-bottom:  1px solid white;
+    font-size: 18px;
+    height: 26px;
+    border:   1px solid white;
+}
+
+.Uniformtd {
+    font-size: 18px;
+}
+
+.tableforuniform {
+
+    margin: auto;
+
+}
+
+.tableuniformsize1{
+    padding-right: 120px;
+
+}
+
+.tableuniformsize2{
+    padding-right: 120px;
+        font-size: 18px;
+
+}
+
+.whitebordertd1{
+    border-left:   1px solid white;
+}
+
+.whitebordertd2{
+    border-right:   1px solid white;
+}
+
+.whitebordertd3{
+    border-right:   1px solid white;
+    border-left:   1px solid white;
+}
+
+
+
+form input{
+    font-size: 18px;
+    
+}
+
+
+/*input{
+    font-size: 40px;
+}*/
+
+/*table, td, th {
+ 
+    border: 1px solid black;
+}*/
+
+.submitbut {
+    font-size: 20px;
+    background-color: #A4FF4A;
+    margin: 0 auto;
+    display: block;
+    border: 1px solid black;
+
+}
+
+
+
+
+
+
+select {
+    font-size: 14px;
+    }
+
+h5 {
+    display: block;
+    font-size: 20px;
+    margin-top: 0.40em;
+    margin-bottom: 0.35em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    border-bottom: 2px solid #A4FF4A;
+   
+}
+
+h6 {
+    display: block;
+    font-size: 18px;
+    margin-top: 0.40em;
+    margin-bottom: 0.35em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: normal;
+    border-bottom: 2px solid black;
+   
+}
+
+.para1{
+    text-align: center;
+    font-size: 18px;
+}
+
+.para2{
+    text-align: center;
+    font-size: 18px;
+    padding-top: 40px;
+}
+
+.navtr {
+    height: 32px;
+}
+
+#navi {
+
+    top: 178px;
+    left: -132px;
+    position: absolute;
+
+}
+
+#navigation {
+
+    padding-left: 10px;
+    width: 105px;
+    height: 192px;
+    background-image: url("../img/background2.jpg");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: center;
+    display: block;
+    border-radius: 12px;
+    
+}
+
+
+
+
+.styling{
+
+    top: 197px;
+    left: -17px;
+    width: 17px;
+    height: 35px;
+    position: absolute;
+    background-image: url("../img/background2.jpg");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.styling2{
+
+    top: 290px;
+    left: -17px;
+    width: 17px;
+    height: 35px;
+    position: absolute;
+    background-image: url("../img/background2.jpg");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#head1 {
+
+    display: flex;
+    background-image: url("../img/background2.jpg");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: center;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    height: 45px;
+}
+
+
+
+#head1 h1 {
+
+    margin: auto;
+    display: inline-block;
+    font-weight: normal;
+    color: white;
+    font-size: 32px;
+}
+
+#picture {
+
+
+    width: 100%;
+    height: 200px;
+
+    background-image: url("../img/design2_image1.jpg");
+
+    background-attachment: relative;
+    background-position: 50% 12%;
+}
+
+.picture1 {
+    margin: auto;
+    height: 200px;
+    width: 100%;
+    display: inline-block;
+    font-weight: normal;
+    color: black;
+    font-size: 23px;
+
+}
+
+#head3 {
+
+
+    background-image: url("../img/background2.jpg");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: center;
+    margin: auto;
+
+    width: 100%;
+    height: 10px;
+    border: 0px solid black;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+#head4 {
+
+
+    background-image: url("../img/background2.jpg");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: center;
+    margin: auto;
+
+    width: 100%;
+    height: 8px;
+    border: 0px solid black;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+footer{
+    height: 100%;
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+#head5 {
+
+
+    background-image: url("../img/background2.jpg");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: center;
+    margin: auto;
+
+    width: 800px;
+    height: 8px;
+    border: 0px solid black;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+
+
+#logo {
+
+
+
+
+
+    top: 0px;
+    left: -85px;
+
+
+    position: absolute;
+}
+
+
+
+#logo img {
+
+    width: 170px;
+    height: 170px;
+}
+
+#navigation {
+    margin: auto;
+}
+
+
+.current{
+    color: #A4FF4A;
+    text-decoration-line: none;
+}
+
+.button {
+    color: white;
+    text-decoration-line: none;
+}
+
+a.button:hover {
+    color: black;
+    font-weight: bold;
+}
+
+a.current:hover{
+        color: black;
+        font-weight: bold;
+    
+}
+
+
+
+
+
+
+
+
+
+#main {
+
+
+    
+    margin-left: 0px;
+    margin-bottom: 0px;
+    width: 800px;
+    margin: auto;
+    height: 100%;
+    
+
+    position: relative;
+}
+
+
+
+article {
+
+    padding: 0 10px 20px 10px;
+  
+}
+
+
+
+
+/*ol {
+  font-weight: bold;
+}
+
+ol > li > * {
+  font-weight: normal;
+}*/
+
+ul {
+
+    display: block;
+    list-style-type: decimal;
+    margin-top: 0em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 40px;
+}
+
+ol {
+    display: block;
+    list-style-type: decimal;
+    margin-top: 0em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 40px;
+}
+
+ol.d {
+    list-style-type: lower-alpha;
+}
+
+ul.a {
+    list-style-type: square;
+}
+
+ul.c {
+    list-style-type: circle;
+}
+
+.middle {
+
+    text-align: center;
+}
+
+.blue{
+    color: blue; 
+}
+
+/*ol.bold {
+    font-weight: bold;
+
+} funktioniert nicht (nur die zahl Bold machen)*/
+
+h3 {
+    font-weight: bold;
+    display: block;
+    font-size: 2.00em;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+h4 {
+    display: block;
+    font-size: 1em;
+    margin-top: 1.33em;
+    margin-bottom: 0em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+
+
+
+table {
+    border-collapse: collapse;
+}
+
+
+
+
+#table1 {
+    margin: auto;
+    width: 750px;
+}
+
+#table2 {
+    margin: auto;
+    width: 750px;
+}
+
+#table4 {
+    margin: auto;
+    width: 750px;
+}
+
+.table2 {
+    width: 100%;
+    text-align: center;
+
+    table-layout: fixed;
+}
+
+.table3 {
+    width: 100%;
+    text-align: center;
+
+    table-layout: fixed;
+}
+
+.low {
+    height: 19px;
+}
+
+#table3 {
+    margin: auto;
+    width: 750px;
+}
+
+.table4 {
+    width: 100%;
+    table-layout: fixed;
+    text-align: center;
+}
+
+
+.moar {
+    text-align: right;
+    padding-right: 20px;
+}
+
+
+.loc {
+    text-align: left;
+    padding-left: 40px;
+}
+
+.table6 {
+    width: 100%;
+
+
+    table-layout: fixed;
+}
+
+.loc2 {
+    text-align: left;
+}
+
+.loc3 {
+    text-align: left;
+    padding-left: 40px;
+}
+
+th {
+    border-bottom: 1px solid black;
+}
+
+.und {
+    text-decoration-line: underline;
+}
+
+.midc {
+    text-align: center;
+}
+
+.bolt {
+    border-top: 1px solid #ddd;
+}
+
+.locbolt {
+    border-top: 1px solid #ddd;
+    text-align: left;
+    padding-left: 40px;
+}
+
+
+#head6 {
+
+
+    background-color: grey;
+    margin: auto;
+    display: inline-block;
+    width: 800px;
+    height: 35px;
+
+   
+}
+
+#subpagemap{
+
+
+    width: 650px;
+    height: 100%;
+    margin: auto;
+    padding-top: 60px;
+    position: relative;
+}  
+
+   
+#content2 {
+
+    height: 100%;
+
+/*    overflow: scroll;*/
+    width: 650px;
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+#article {
+    padding: 20px;
+
+    /*    overflow: scroll; später für inside scrolling*/
+}
+
+#head7 {
+
+
+    background-image: url("../img/background2.jpg");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: center;
+    margin: auto;
+
+    width: 650px;
+    height: 8px;
+    border: 0px solid black;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+
+
+
+
+.button2 {
+    color: black;
+    text-decoration-line: none;
+    font-weight: bold;
+}
+
+a.button2:hover {
+    color: #A4FF4A;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+/*old stuff
+/*    overflow: scroll;*/
+
+/*input[type="submit"]{
+    font-size: 20px;
+    background-color: red;
+    margin: 0 auto;
+    display: block
+}*/
+/*.current {
+
+
+    border: 1px solid black;
+    padding: 5px 5px;
+    border-radius: 1px;
+    border-color: black;
+    color: white;
+    background-color: green;
+    text-decoration-line: none;
+}
+
+.button {
+    border: 1px solid black;
+    height: 120px;
+    width: 120px;
+
+    border-radius: 1px;
+    border-color: black;
+    color: white;
+    background-color: blue;
+    text-decoration-line: none;
+}
+
+a.button:hover {
+    color: white;
+    background-color: green;
+    text-decoration: none;
+    text-decoration-line: none;
+}*/
